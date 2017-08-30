@@ -9,7 +9,7 @@ var config = require('./config.js');
 // the object that will hold information about the active users currently
 // on the site
 var visitorsData = {};
-
+ 
 app.set('port', (process.env.PORT || 5000));
 
 // serve the static assets (js/dashboard.js and css/dashboard.css)
